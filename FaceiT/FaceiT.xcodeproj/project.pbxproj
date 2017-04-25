@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F49CF9441EAD0B6F0014E405 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49CF9431EAD0B6F0014E405 /* FacialExpression.swift */; };
+		F4D080D11EA5C24A00AF70CF /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D080D01EA5C24A00AF70CF /* FaceView.swift */; };
+		F4FDCB001EA5C09C0003E88F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FDCAFF1EA5C09C0003E88F /* AppDelegate.swift */; };
+		F4FDCB021EA5C09C0003E88F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FDCB011EA5C09C0003E88F /* ViewController.swift */; };
+		F4FDCB051EA5C09C0003E88F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FDCB031EA5C09C0003E88F /* Main.storyboard */; };
+		F4FDCB071EA5C09C0003E88F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FDCB061EA5C09C0003E88F /* Assets.xcassets */; };
+		F4FDCB0A1EA5C09C0003E88F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FDCB081EA5C09C0003E88F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F49CF9431EAD0B6F0014E405 /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
+		F4D080D01EA5C24A00AF70CF /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FaceView.swift; path = ../../../FaceiT/FaceiT/FaceiT/FaceView.swift; sourceTree = "<group>"; };
+		F4FDCAFC1EA5C09C0003E88F /* FaceiT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceiT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FDCAFF1EA5C09C0003E88F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4FDCB011EA5C09C0003E88F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4FDCB041EA5C09C0003E88F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4FDCB061EA5C09C0003E88F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4FDCB091EA5C09C0003E88F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4FDCB0B1EA5C09C0003E88F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4FDCAF91EA5C09C0003E88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4FDCAF31EA5C09C0003E88F = {
+			isa = PBXGroup;
+			children = (
+				F4FDCAFE1EA5C09C0003E88F /* FaceiT */,
+				F4FDCAFD1EA5C09C0003E88F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4FDCAFD1EA5C09C0003E88F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4FDCAFC1EA5C09C0003E88F /* FaceiT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4FDCAFE1EA5C09C0003E88F /* FaceiT */ = {
+			isa = PBXGroup;
+			children = (
+				F4D080D01EA5C24A00AF70CF /* FaceView.swift */,
+				F4FDCB011EA5C09C0003E88F /* ViewController.swift */,
+				F4FDCB031EA5C09C0003E88F /* Main.storyboard */,
+				F4FDCB111EA5C1250003E88F /* SupportingFiles */,
+				F49CF9431EAD0B6F0014E405 /* FacialExpression.swift */,
+			);
+			path = FaceiT;
+			sourceTree = "<group>";
+		};
+		F4FDCB111EA5C1250003E88F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F4FDCAFF1EA5C09C0003E88F /* AppDelegate.swift */,
+				F4FDCB061EA5C09C0003E88F /* Assets.xcassets */,
+				F4FDCB081EA5C09C0003E88F /* LaunchScreen.storyboard */,
+				F4FDCB0B1EA5C09C0003E88F /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4FDCAFB1EA5C09C0003E88F /* FaceiT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4FDCB0E1EA5C09C0003E88F /* Build configuration list for PBXNativeTarget "FaceiT" */;
+			buildPhases = (
+				F4FDCAF81EA5C09C0003E88F /* Sources */,
+				F4FDCAF91EA5C09C0003E88F /* Frameworks */,
+				F4FDCAFA1EA5C09C0003E88F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceiT;
+			productName = FaceiT;
+			productReference = F4FDCAFC1EA5C09C0003E88F /* FaceiT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4FDCAF41EA5C09C0003E88F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Arun Ramaswamy";
+				TargetAttributes = {
+					F4FDCAFB1EA5C09C0003E88F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9FAHMY7K2F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F4FDCAF71EA5C09C0003E88F /* Build configuration list for PBXProject "FaceiT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4FDCAF31EA5C09C0003E88F;
+			productRefGroup = F4FDCAFD1EA5C09C0003E88F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4FDCAFB1EA5C09C0003E88F /* FaceiT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4FDCAFA1EA5C09C0003E88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FDCB0A1EA5C09C0003E88F /* LaunchScreen.storyboard in Resources */,
+				F4FDCB071EA5C09C0003E88F /* Assets.xcassets in Resources */,
+				F4FDCB051EA5C09C0003E88F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4FDCAF81EA5C09C0003E88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FDCB021EA5C09C0003E88F /* ViewController.swift in Sources */,
+				F49CF9441EAD0B6F0014E405 /* FacialExpression.swift in Sources */,
+				F4FDCB001EA5C09C0003E88F /* AppDelegate.swift in Sources */,
+				F4D080D11EA5C24A00AF70CF /* FaceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4FDCB031EA5C09C0003E88F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4FDCB041EA5C09C0003E88F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4FDCB081EA5C09C0003E88F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4FDCB091EA5C09C0003E88F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4FDCB0C1EA5C09C0003E88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4FDCB0D1EA5C09C0003E88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4FDCB0F1EA5C09C0003E88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9FAHMY7K2F;
+				INFOPLIST_FILE = FaceiT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arun.FaceiT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F4FDCB101EA5C09C0003E88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9FAHMY7K2F;
+				INFOPLIST_FILE = FaceiT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arun.FaceiT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4FDCAF71EA5C09C0003E88F /* Build configuration list for PBXProject "FaceiT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FDCB0C1EA5C09C0003E88F /* Debug */,
+				F4FDCB0D1EA5C09C0003E88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4FDCB0E1EA5C09C0003E88F /* Build configuration list for PBXNativeTarget "FaceiT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FDCB0F1EA5C09C0003E88F /* Debug */,
+				F4FDCB101EA5C09C0003E88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4FDCAF41EA5C09C0003E88F /* Project object */;
+}
