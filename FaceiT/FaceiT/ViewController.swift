@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var faceView: FaceView!{
-        // IOS takes few microseconds to connect this to view during startup. SO if model gets intialized before that then updateUI method is not called at all because i) faceView is not intialized so didSet won't work, ii) the didSet of expression also wont work because didSet doesn't get called during intialization.
+        // IOS takes few microseconds to connect this to view during startup. So if model gets intialized before that then updateUI method is not called at all because i) faceView is not intialized so didSet won't work, ii) the didSet of expression also wont work because didSet doesn't get called during intialization.
         didSet{
             
             let handler = #selector(FaceView.changeScale(byReactingTo:))
@@ -21,6 +21,12 @@ class ViewController: UIViewController {
             //tap
             let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(toggleEyes(byReactingTo :)))
             faceView.addGestureRecognizer(tapRecognizer)
+            let swipeUpRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(increaseHappiness))
+            swipeUpRecognizer.direction = .up
+            faceView.addGestureRecognizer(swipeUpRecognizer)
+            let swipeDownRecognizer = UISwipeGestureRecognizer(target: self, action: #selector(decreaseHappiness))
+            swipeDownRecognizer.direction = .down
+            faceView.addGestureRecognizer(swipeDownRecognizer)
             updateUI()
         }
     }
@@ -40,6 +46,16 @@ class ViewController: UIViewController {
         
     }
     
+    //swipe function for mouth
+    func increaseHappiness(){
+        expression = expression.happier
+    }
+    
+    //swipe function for mouth
+    func decreaseHappiness(){
+        expression = expression.sadder
+    }
+    
    
     private func updateUI(){
     
@@ -52,7 +68,7 @@ class ViewController: UIViewController {
                 faceView?.eyeOpen = false
         }
         
-        faceView.mouthCurvature = mouthCurvatures[expression.mouth] ?? 0.0
+        faceView?.mouthCurvature = mouthCurvatures[expression.mouth] ?? 0.0
         
     }
     
@@ -65,14 +81,7 @@ class ViewController: UIViewController {
     ]
   
     
-    //handler for toggling mouth to keep in sync with the model
-    func toggleMouth(byReactingTo tapRecognizer: UITapGestureRecognizer){
-        if tapRecognizer.state == .ended {
-            let mouth : FacialExpressionn = expression.mouth.happier ==   ? .open : .closed
-            expression = FacialExpression(eyes: eyes, mouth: expression.mouth)
-        }
-        
-    }
+  
     
 
 }
